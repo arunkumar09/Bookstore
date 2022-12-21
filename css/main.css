@@ -1,0 +1,16 @@
+header h1 {
+    font-family: "Tangerine", serif;
+    color: #3046C5; 
+padding-right: 100;}
+  
+header p {color: rgb(31, 13, 225); 
+font-family: cursive;}
+
+body {font-family: "Open Sans", sans-serif; }
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: #11a52c;
+    color: white; }
+
