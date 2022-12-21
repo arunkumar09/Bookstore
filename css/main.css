@@ -3,14 +3,20 @@ header h1 {
     color: #3046C5; 
 padding-right: 100;}
   
-header p {color: rgb(31, 13, 225); 
-font-family: cursive;}
+header h2 {color: rgb(31, 13, 225); 
+font-family: cursive;
+text-align: left;
+}
 
 body {font-family: "Open Sans", sans-serif; }
 
 .jumbotron {
     margin: 0;
-    padding: 10px;
-    background-color: #11a52c;
-    color: white; }
+    padding: 30px;
+    background-color: #d9ecdd;
+    color: white; 
+}
 
+.navbar {
+    background-color: #068d23;
+}
