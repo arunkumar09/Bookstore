@@ -30,16 +30,16 @@ img {
   color: white;
 }
 
-h3 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: var(--black);
-  text-align: center;
-  text-align: center;
+.home .row .content h3{
+    color:var(--black);
+    font-size: 4.5rem;
 }
-p {
-  padding: 10px;
-  text-align: center;
+
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
 }
 
 * {
@@ -113,9 +113,4 @@ p {
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
-}
-.icons{
-    padding: 10px;
-    text-align: center;
-    font-size: small;
 }
