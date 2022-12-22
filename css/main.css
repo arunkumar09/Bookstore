@@ -17,10 +17,13 @@ body {
 .jumbotron {
   margin: 0;
   padding: 10px;
-  background-color: #13e03f;
+  background-image: linear-gradient(#15db2f, white);
   color: white;
 }
 
+#header {
+  background-image: linear-gradient(#15db2f, white);
+}
 img {
   width: 40%;
   height: auto;
@@ -114,3 +117,7 @@ img {
     cursor: pointer;
     font-weight: 500;
 }
+
+#footer {
+    background-image: linear-gradient(#15db2f, white);
+    padding: 20px 0; }
