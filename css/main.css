@@ -43,7 +43,7 @@ p {
 }
 
 * {
-  font-family: fantasy;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -69,21 +69,21 @@ p {
 }
 
 .home .row .content{
-    flex:1 1 42rem;
+    flex:1 1 12rem;
 }
 
 .home .row .carouselslide{
-    flex:1 1 42rem;
+    flex:1 1 12rem;
     text-align: center;
     margin-top: 2rem;
 }
 
 .home .row .carouselslide a img{
-    height: 25rem;
+    height: 5rem;
 }
 
 .home .row .carouselslide a:hover img{
-    transform: scale(.9);
+    transform: scale(.1);
 }
 
 .home .row .carouselslide .stand{
@@ -113,4 +113,9 @@ p {
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
+}
+.icons{
+    padding: 10px;
+    text-align: center;
+    font-size: small;
 }
