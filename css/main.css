@@ -41,10 +41,6 @@ p {
   padding: 10px;
   text-align: center;
 }
-.btn {
-    padding: 10px;
-  text-align: center;
-}
 
 * {
   font-family: fantasy;
@@ -57,4 +53,64 @@ p {
   text-transform: capitalize;
   transition: all 0.2s linear;
   transition: width none;
+}
+
+.home{
+    background: url(../image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .row .content{
+    flex:1 1 42rem;
+}
+
+.home .row .carouselslide{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .carouselslide a img{
+    height: 25rem;
+}
+
+.home .row .carouselslide a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .carouselslide .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+.home .row .content h3{
+    color:var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+#shopButton{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:#fff;
+    background:var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
 }
